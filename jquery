@@ -1,0 +1,10 @@
+<script>
+  //js 立即执行函数
+  (function(){
+    ....
+  }())
+  
+  $(function(){
+      ....
+  })
+</script>
