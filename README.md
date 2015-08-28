@@ -1,4 +1,4 @@
-test
+这里记录学习javascript的点点滴滴
 ====
 
 example
