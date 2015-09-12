@@ -3,12 +3,12 @@
 
 example
 //单独写一个函数方法
-
+``` bash
 function fnName(){}
 var fnName = function(){}
 
 ()()
-
+```
 //
 (function(){
   //do something...
@@ -45,6 +45,7 @@ module1._count = 5;
 
 //这样的写法会暴露所有模块成员，内部状态可以被外部改写。比如，外部代码可以直接改变内部计数器的值。
 
+```bash
 var module2 = (function(){
 
 	var _count = 0;
@@ -65,6 +66,7 @@ var module2 = (function(){
 	};
 
 })()
+```
 
 //使用上面的写法，外部代码无法读取内部的_count变量。
 
