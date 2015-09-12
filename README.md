@@ -5,15 +5,20 @@ example
 //单独写一个函数方法
 ``` bash
 function fnName(){}
-var fnName = function(){}
-
-()()
 ```
-//
+``` bash
+var fnName = function(){}
+```
+
+``` bash
+//()()
+
 (function(){
   //do something...
 })()
+```
 
+``` bash
 function function_name1 (function_name1) {
 	// body...
 	alert(function_name1)
@@ -22,8 +27,9 @@ function function_name1 (function_name1) {
 function function_name2(function_name2){
 	alert(function_name2)
 }
+```
 
-
+``` bash
 var module1 = new Object({
 
 	_count : 0,
@@ -35,13 +41,15 @@ var module1 = new Object({
 		alert(module1_fn_name2)
 	}
 });
+```
 
-
+``` bash
 module1.m1('m1m1m1m1m1')
 
 module1.m2('m2m2m2m2m2')
 
 module1._count = 5;
+```
 
 //这样的写法会暴露所有模块成员，内部状态可以被外部改写。比如，外部代码可以直接改变内部计数器的值。
 
@@ -70,7 +78,7 @@ var module2 = (function(){
 
 //使用上面的写法，外部代码无法读取内部的_count变量。
 
-
+``` bash
 var module1 = (function(mod){
 
 	mod.m3 = function(){
@@ -91,3 +99,5 @@ var module1 = (function(mod){
 
 
 })(window.module1 || {})
+
+```
