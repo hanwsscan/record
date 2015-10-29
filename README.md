@@ -1,6 +1,17 @@
 这里记录学习javascript的点点滴滴
 ====
 
+iscroll.js  
+
+options.eventPassthrough
+	使用 IScroll 的横轴滚动时，如想使用系统立轴滚动并在横轴上生效，请开启。 
+false
+
+iSlider.js
+
+有效区域与页面滚动冲可加入：fixPage: false
+
+
 example
 //单独写一个函数方法
 ``` bash
