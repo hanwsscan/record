@@ -10,3 +10,12 @@
 	win.addEventListener(resizeEvt, recalc, false);
 	doc.addEventListener('DOMContentLoaded', recalc, false);
 })(document, window);
+
+改变html的font-size可以等比改变所有用了rem单位的元素;
+
+从而可以基本代替 @media 的设置。
+
+ rem（font size of the root element）是指相对于根元素(html)的字体大小的单位。
+  em（font size of the element）是指相对于父元素的字体大小的单位。
+  
+web app最适合使用 rem 单位。
