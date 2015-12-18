@@ -1,3 +1,6 @@
+	width: 200px;
+	height: 200pxrem;
+	
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -moz-box;
